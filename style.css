@@ -81,3 +81,26 @@ header p {
     padding-bottom: 15px;
     border-bottom: 2px solid var(--gray);
 }
+
+.panel-title i {
+    color: var(--primary);
+    font-size: 1.4rem;
+    margin-right: 12px;
+}
+
+.panel-title h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+/* Animation Preview Styles */
+#animationPreview {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: var(--radius);
+}
