@@ -178,3 +178,23 @@ header p {
 .slide {
     animation-name: slide;
 }
+
+.bounce {
+    animation-name: bounce;
+}
+
+.rotate {
+    animation-name: rotate;
+}
+
+.fade {
+    animation-name: fade;
+}
+
+.pulse {
+    animation-name: pulse;
+}
+
+.shake {
+    animation-name: shake;
+}
