@@ -224,3 +224,24 @@ header p {
 .control-group {
     margin-bottom: 15px;
 }
+
+.control-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--dark);
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+}
+
+.slider-container input[type="range"] {
+    flex: 1;
+    height: 8px;
+    border-radius: 4px;
+    background: var(--gray);
+    outline: none;
+    -webkit-appearance: none;
+}
