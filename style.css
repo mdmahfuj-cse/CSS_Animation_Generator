@@ -391,3 +391,24 @@ select:focus, input[type="color"]:focus {
     align-items: center;
     margin-bottom: 15px;
 }
+
+.copy-btn {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.copy-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.copy-btn i {
+    margin-right: 5px;
+}
