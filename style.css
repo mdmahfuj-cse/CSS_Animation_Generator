@@ -436,3 +436,30 @@ select:focus, input[type="color"]:focus {
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
+.animation-preset:hover {
+    border-color: var(--primary);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.animation-preset i {
+    font-size: 1.8rem;
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+.animation-preset h4 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    color: #666;
+    font-size: 0.9rem;
+    border-top: 1px solid var(--gray);
+}
