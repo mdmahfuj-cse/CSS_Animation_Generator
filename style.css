@@ -350,3 +350,21 @@ select:focus, input[type="color"]:focus {
     transform: translateY(-3px);
     box-shadow: 0 7px 15px rgba(108, 92, 231, 0.3);
 }
+
+.btn-secondary {
+    background: var(--gray);
+    color: var(--dark);
+}
+
+.btn-secondary:hover {
+    background: #c8d0d8;
+}
+
+.btn-success {
+    background: var(--success);
+    color: white;
+}
+
+.btn-success:hover {
+    background: #00a085;
+}
