@@ -245,3 +245,30 @@ header p {
     outline: none;
     -webkit-appearance: none;
 }
+.slider-container input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--primary);
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.slider-value {
+    width: 50px;
+    text-align: center;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+select, input[type="color"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid var(--gray);
+    border-radius: 8px;
+    font-size: 1rem;
+    background: white;
+    color: var(--dark);
+    transition: all 0.3s ease;
+}
