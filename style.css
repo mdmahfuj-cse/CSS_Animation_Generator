@@ -368,3 +368,26 @@ select:focus, input[type="color"]:focus {
 .btn-success:hover {
     background: #00a085;
 }
+
+/* Code Output */
+#codeOutput {
+    background: #1e1e2e;
+    color: #f8f8f2;
+    padding: 20px;
+    border-radius: var(--radius);
+    font-family: 'Courier New', monospace;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    height: 300px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    word-break: break-all;
+    margin-bottom: 20px;
+}
+
+.code-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
