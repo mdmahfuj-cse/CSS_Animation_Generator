@@ -291,3 +291,34 @@ select:focus, input[type="color"]:focus {
     gap: 10px;
     margin-top: 10px;
 }
+
+.timing-btn {
+    flex: 1;
+    min-width: 100px;
+    padding: 10px;
+    background: white;
+    border: 2px solid var(--gray);
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.timing-btn:hover {
+    border-color: var(--primary);
+    background: rgba(108, 92, 231, 0.05);
+}
+
+.timing-btn.active {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+/* Action Buttons */
+.action-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 25px;
+}
