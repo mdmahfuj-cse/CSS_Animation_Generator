@@ -7,3 +7,25 @@ const exportBtn = document.getElementById('exportBtn');
 const playBtn = document.getElementById('playBtn');
 const pauseBtn = document.getElementById('pauseBtn');
 const resetBtn = document.getElementById('resetBtn');
+
+// Control elements
+const animationType = document.getElementById('animationType');
+const durationSlider = document.getElementById('duration');
+const delaySlider = document.getElementById('delay');
+const iterationSelect = document.getElementById('iteration');
+const timingButtons = document.querySelectorAll('.timing-btn');
+const bgColor = document.getElementById('bgColor');
+const textColor = document.getElementById('textColor');
+const animationPresets = document.querySelectorAll('.animation-preset');
+
+// Display elements
+const durationValue = document.getElementById('durationValue');
+const durationDisplay = document.getElementById('durationDisplay');
+const delayValue = document.getElementById('delayValue');
+const delayDisplay = document.getElementById('delayDisplay');
+
+// Animation state
+let currentAnimation = '';
+let currentTiming = 'ease';
+let isPlaying = false;
+let animationTimeout = null;
