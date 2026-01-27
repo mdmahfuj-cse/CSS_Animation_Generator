@@ -360,5 +360,3 @@ function exportCSSFile() {
 
 // Initialize the app when page loads
 document.addEventListener('DOMContentLoaded', init);
-
-document.addEventListener('DOMContentLoaded', init);
