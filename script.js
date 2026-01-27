@@ -287,22 +287,7 @@ function generateCSSCode(type, duration, delay, iteration) {
     // Create the CSS code
     const cssCode = `${keyframes}
 
-.${type} {
-animation: ${type} ${duration}s ${currentTiming} ${delay}s ${iteration};
-}
 
-/* To apply this animation to any element: */
-.your-element {
-width: 120px;
-height: 120px;
-background: ${bgColorValue};
-color: ${textColorValue};
-border-radius: 20px;
-display: flex;
-align-items: center;
-justify-content: center;
-animation: ${type} ${duration}s ${currentTiming} ${delay}s ${iteration};
-}`;
     
     // Update code output
     codeOutput.textContent = cssCode;
