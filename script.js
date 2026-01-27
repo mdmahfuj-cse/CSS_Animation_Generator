@@ -317,27 +317,7 @@ animation: ${type} ${duration}s ${currentTiming} ${delay}s ${iteration};
     });
 }
 
-// Copy CSS code to clipboard
-function copyCodeToClipboard() {
-    const codeText = codeOutput.textContent;
-    
-    navigator.clipboard.writeText(codeText)
-        .then(() => {
-            // Show feedback
-            const originalText = copyCodeBtn.innerHTML;
-            copyCodeBtn.innerHTML = '<i class="fas fa-check"></i> Copied!';
-            copyCodeBtn.style.background = 'var(--success)';
-            
-            setTimeout(() => {
-                copyCodeBtn.innerHTML = originalText;
-                copyCodeBtn.style.background = '';
-            }, 2000);
-        })
-        .catch(err => {
-            console.error('Failed to copy text: ', err);
-            alert('Failed to copy code to clipboard. Please try again.');
-        });
-}
+
 
 // Export CSS as a file
 function exportCSSFile() {
